@@ -18,5 +18,10 @@ h1{
   background-color: black;
   border-radius: 50px;
   margin-bottom: 40px;
+  transition: transform 0.3s ;
+  &:hover {
+    transform: scale(1.05);
+   
+  }
 
 }

@@ -97,7 +97,8 @@ function App() {
     <>
       <h1>Clientes Caninos de Veterinaria</h1>
       <Veterinaria items={Caninos} />
-   </>
+      
+    </>
   )
 }
 

@@ -1,9 +1,10 @@
 import styles from './CaninoInfo.module.css'
+
 export default function CaninoInfo({ estado }) {
     return (
         <div className={styles['Caninos-card']} >
-            {/* falta agregar la imagen aqui */}
             <h2>{estado.nombre}</h2>
+            <img className={styles.imagen} src={estado.imagen} alt={estado.titulo} />
             <hr />
             <li>
                 <p><strong>Edad:</strong> {estado.edad}</p>
@@ -12,7 +13,6 @@ export default function CaninoInfo({ estado }) {
                 <p><strong>Tamaño:</strong> {estado.tamaño}</p>
             </li>
             <hr />
-            <button className='Btn'>Imagen</button>
         </div>
     )
 }
