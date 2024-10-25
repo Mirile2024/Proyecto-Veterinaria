@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.Caninos-card {
+    margin: 5px;
+    display:inline-flex;
+    flex-direction: column;    
+    background-color: #212121;
+    border-radius: 32px;
+    border-color: aqua;
+    box-shadow: 0 4px 12px rgba(26, 192, 221, 0.3);
+    overflow: hidden;
+    width: 500px;
+    color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+     
+    }
+  }
+  
+  .imagen {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 13px;
+    
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+    color: #ffeb3b;
+  }
+  
+  p {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #bdbdbd;
+  }
+  
+  .btn{
+    width: 200px;
+    background-color: #ffeb3b;
+    border-radius: 10px;
+  }
