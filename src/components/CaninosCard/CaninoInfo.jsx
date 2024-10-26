@@ -12,7 +12,6 @@ export default function CaninoInfo({ estado }) {
                 <p><strong>Raza:</strong> {estado.raza}</p>
                 <p><strong>Tamaño:</strong> {estado.tamaño}</p>
             </li>
-            <hr />
         </div>
     )
 }

@@ -5,15 +5,19 @@
   font-family: 'Roboto', sans-serif;
 }
 .Caninos-card {
-    margin: 5px;
+    margin: 25px;
     display:inline-flex;
     flex-direction: column;    
     background-color: #212121;
+    border-top: 10px solid rgb(188, 202, 66);
+    border-right: 10px solid rgb(66, 139, 202);
+    border-bottom: 10px solid rgb(202, 66, 129);
+    border-left: 10px solid rgba(66, 139, 202, .2);
     border-radius: 32px;
-    border-color: aqua;
+    /* border-color: aqua; */
     box-shadow: 0 4px 12px rgba(26, 192, 221, 0.3);
     overflow: hidden;
-    width: 500px;
+    width: 300px;
     color: #ffffff;
     transition: transform 0.3s ease-in-out;
     &:hover {
@@ -23,21 +27,21 @@
   }
   
   .imagen {
-    width: 100%;
-    height: 500px;
+    width: 280px;
+    height: auto;
     object-fit: cover;
     margin-bottom: 13px;
     
   }
   
   h2 {
-    font-size: 2.5rem;
-    margin: 15px 0;
+    font-size: 2rem;
+    margin: 7px 0;
     color: #ffeb3b;
   }
   
   p {
-    margin: 10px;
+    margin: 5px;
     font-size: 0.9rem;
     color: #bdbdbd;
   }
